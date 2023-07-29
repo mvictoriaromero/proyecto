@@ -1,0 +1,178 @@
+body {
+    background-color: grey;
+}
+
+.fondoBisque {
+    background-color: white;
+}
+
+.logo {
+    width: 75px;
+}
+
+
+.tituloMain {
+    color: #3fbbc0;
+    text-decoration: none;
+    font-size: 2.5rem;
+    
+}
+
+.contenedorImagen {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+/* estilo para discografia.html */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-img{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px;
+    grid-gap: 20px;
+}
+.container-img .box-img figure{
+    width: 100%;
+    height: 100%;
+}
+.container-img .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container-img .box-img:nth-child(1){
+    grid-column-start: span 2;
+}
+.container-img .box-img:nth-child(4){
+    grid-row-start: span 2;
+}
+@media screen and (max-width:800px){
+    .container-img{
+        width: 95%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-template-rows: 200px;
+    }
+    .container-img .box-img:nth-child(1){
+        grid-column-start: span 1;
+    }
+}
+@media screen and (max-width:500px){
+    .container-img{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container-img .box-img img{
+        height: 200px;
+    }
+}
+
+/* estilo para instrumentos.html */
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex {
+    flex: 1;
+    min-width: 250px;
+   
+}
+
+.in-flex:first-child {
+    flex: 2 ;
+    padding: 25px;
+    background-color:#3fbbc0;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.in-flex div {
+    padding: 25px;
+    background-color: #3fbbc0;
+    margin: 20px;
+}
+
+
+.albumes {
+    color: rgb(44, 43, 43);
+    text-decoration: none;
+    font-size: 2.5;
+    text-align: center;
+    margin: 2rem auto;
+    
+}
+
+.biografia {
+    color: rgb(44, 43, 43);
+    text-decoration: none;
+    font-size: 2.5;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+
+/*
+
+.parrafoPrincipal {
+    font-family: "arial";
+    font-size: 1.5rem;
+    text-align: center;
+    width: 600px;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+}
+
+*/
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .parrafoPrincipal {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 3rem; /* Tamaño de fuente con unidades relativas */
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.6rem; /* Tamaño de fuente con unidades relativas */
+    line-height: 1.6; /* Espaciado entre líneas */
+  }
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    h1 
+      font-size: 2.5rem;
+    }
+  
+    p {
+      font-size: 1.4rem;
+    }
+
+.formulario {
+    color: rgb(44, 43, 43);
+    text-decoration: none;
+    font-size: 2.5;
+    text-align: left;
+    margin: 2rem auto;
+}

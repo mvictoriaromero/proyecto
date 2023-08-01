@@ -93,19 +93,21 @@ body {
 .in-flex:first-child {
     flex: 2 ;
     padding: 25px;
-    background-color: white;
+    background-color: rgb(68, 65, 65);
     margin: 20px;
     margin-bottom: 0px;
     font-size: 1.6rem;
     line-height: 1.6;
+    color: white;
 }
 
 .in-flex div {
     padding: 25px;
-    background-color: white ;
+    background-color:rgb(68, 65, 65) ;
     margin: 20px;
     font-size: 1.2rem;
     line-height: 1.6;
+    color: white;
 }
 
 

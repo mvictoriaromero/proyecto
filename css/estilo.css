@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: black;
 }
 
 .fondoBisque {
@@ -93,20 +93,27 @@ body {
 .in-flex:first-child {
     flex: 2 ;
     padding: 25px;
-    background-color:#3fbbc0;
+    background-color: white;
     margin: 20px;
     margin-bottom: 0px;
+    font-size: 1.6rem;
+    line-height: 1.6;
 }
 
 .in-flex div {
     padding: 25px;
-    background-color: #3fbbc0;
+    background-color: white ;
     margin: 20px;
+    font-size: 1.2rem;
+    line-height: 1.6;
 }
 
 
+
+/* estilo para los titulos */
+
 .albumes {
-    color: rgb(44, 43, 43);
+    color:white;
     text-decoration: none;
     font-size: 2.5;
     text-align: center;
@@ -115,10 +122,25 @@ body {
 }
 
 .biografia {
-    color: rgb(44, 43, 43);
+    color: white;
     text-decoration: none;
     font-size: 2.5;
     text-align: center;
+    margin: 2rem auto;
+}
+
+.tituloBandas {
+    color: white;
+    text-decoration: none;
+    font-size: 2.5;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.subtituloBandas {
+    color: white;
+    text-decoration: none;
+    font-size: 2.5;
     margin: 2rem auto;
 }
 
@@ -148,11 +170,13 @@ body {
   h1 {
     font-size: 3rem; /* Tamaño de fuente con unidades relativas */
     margin-bottom: 10px;
+    
   }
   
   p {
     font-size: 1.6rem; /* Tamaño de fuente con unidades relativas */
     line-height: 1.6; /* Espaciado entre líneas */
+    color: white;
   }
 
 
@@ -170,7 +194,7 @@ body {
     }
 
 .formulario {
-    color: rgb(44, 43, 43);
+    color:white;
     text-decoration: none;
     font-size: 2.5;
     text-align: left;

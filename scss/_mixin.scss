@@ -1,0 +1,33 @@
+@mixin subtitulos ($colorsubtitulo) {
+    color: $colorsubtitulo;
+    font-size: $tamsubtitulo;
+    margin: 2rem auto;
+}
+
+.subtitulo1 {
+    @include subtitulos (#8D6939);
+}
+
+.subtitulo2 {
+    @include subtitulos (#8D6939);
+}
+
+.subtitulo3 {
+    @include subtitulos (#8D6939);
+}
+
+.subtitulo4 {
+    @include subtitulos (#8D6939);
+}
+
+.subtitulo5 {
+    @include subtitulos (#8D6939);
+}
+
+.subtitulo6 {
+    @include subtitulos (#8D6939);
+}
+
+.subtitulo7 {
+    @include subtitulos (#8D6939);
+}
